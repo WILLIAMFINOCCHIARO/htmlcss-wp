@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* settings layout */
+
+.container {
+  width: 80%;
+  margin:20px auto;
+}
+
+
+header {
+  height: 100px;
+  background-color:purple;
+  margin-bottom: 20px;
+}
+
+.jamboo {
+    height: 400px;
+    background-color: blue;
+    margin-bottom:20px;
+  }
+
+/* start main */
+
+.clearflix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+
+.sideleft {
+  width: 25%;
+  float: left;
+}
+.principal{
+  width: 50%;
+  float: left;
+}
+.sideright {
+  width: 25%;
+  float: left;
+}
+/* /main */
+
+/* start footer */
+footer {
+  height: 50px;
+  background-color: red;
+  margin-top: 10px;
+}
+
+/* /footer */
+
+/* /settings llayout */
+
+
+
+/* debug */
+.debug {
+  background-color: yellowgreen;
+  height:500px
+}
+
+.debug .title {
+    background-color: yellowgreen;
+    height: 100px;
+   }
+
+.debug .sideleft {
+  height: 400px;
+  border-width: 10px 10px 10px 0px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.debug .principal {
+  height: 400px;
+  border: 10px solid blue;
+}
+
+.debug .sideright {
+  height: 400px;
+  border-width: 10px 0px 10px 10px;
+  border-color: blue;
+  border-style: solid;
+}
