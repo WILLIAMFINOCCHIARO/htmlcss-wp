@@ -153,4 +153,16 @@ ul li {
 
 /* /jamboo */
 
+/* title */
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
 
+.title :nth-child(2) {
+  font-size:20px;
+  font-family: cursive;
+  color: gray;
+}
+
+/* /title */
