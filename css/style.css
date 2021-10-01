@@ -54,19 +54,22 @@ footer {
 
 
 /* debug */
+
+
 .debug main {
   height:550px;
   background-color: blue;
 }
 
-.debug header {
+/* .debug header {
   background-color:purple;
-}
+} */
 
-.debug .jamboo {
+/* .debug .jamboo {
   height: 400px;
-  background-color: blue;
-}
+  background-color:blue;
+} */
+
 
 .debug .title {
     background-color: yellowgreen;
@@ -81,4 +84,51 @@ footer {
 .debug footer {
   background-color: red;
 }
+
+/* /debug */
+
+/* ****content**** */
+
+/* header */
+.logo {
+  height: 80px;
+  padding-right: 20px;
+  border-right:1px solid gray ;
+}
+
+/* /header */
+
+/* nav */
+
+.bar {
+  height: 50px;
+  line-height: 50px;
+}
+
+ul li {
+  display: inline-block;
+  vertical-align:middle;
+  margin:0 10px;
+  color: gray;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: underline;
+  
+}
+
+
+/* /nav */
+
+/* jamboo */
+  {
+  height: 400px;
+}
+
+
+
+/* /jamboo */
+
 
