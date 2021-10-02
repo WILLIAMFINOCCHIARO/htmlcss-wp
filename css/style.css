@@ -40,6 +40,7 @@ main {
 }
 .principal{
   width: 46%;
+  margin:0 2%;
 }
 
 footer {
@@ -75,13 +76,13 @@ footer {
   }
 
 .debug .sideone,.debug .principal,.debug .sidetwo{
-  height: 400px;
+  height: 500px;
   background-color: yellowgreen;
 }
 
-.debug footer {
+/* .debug footer {
   background-color: red;
-}
+} */
 
 /* /debug */
 
@@ -165,3 +166,39 @@ h1 {
 }
 
 /* /title */
+
+/* aside left */
+.sideone img,.sidetwo img,.principal img {
+  width: 100%;
+  height: 200px;
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+aside :nth-child(2) {
+  color: black;
+  font-size:medium;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside p {
+  color: gray;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* /aside left */
+
+/* footer  */
+footer div {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span.heart{
+  color: red;
+}
+
+/* /footer */
+
+
