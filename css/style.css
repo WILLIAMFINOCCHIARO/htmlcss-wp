@@ -137,6 +137,7 @@ ul li {
   overflow-wrap: break-word;
   position: absolute;
   top:60%;
+  left: 40px;
 }
 .writers .big {
   font-size: 40px;
@@ -146,7 +147,7 @@ ul li {
 }
 
 .wh {
-  color:gray;
+  color:white;
   font-weight: 400;
 }
 
